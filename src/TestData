@@ -1,0 +1,3 @@
+append(L,[],L).
+append([],L,L).
+append([A|B],C,[A|D]):-append(B,C,D).
